@@ -1,0 +1,3 @@
+To be honest, I ran all 4 pages and figured out that the issue is blocking the main thread where the Flutter engine runs the UI. So it's all about using a different thread for heavy computations. The recommended one is Isolate, and it's a simple concept that only senior devs understand. It has a significant effect on the UI. So I didn't go through the code and apply the fixes—I just used Cursor AI with a good prompt.
+
+If I have time, I will go through every single line of code.
